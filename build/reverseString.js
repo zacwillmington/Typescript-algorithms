@@ -1,8 +1,8 @@
-var str = 'Taco Cat';
+const str = 'Taco  Ct';
 function reverseString(str) {
-    var strToArr = str.split('');
-    var left = 0;
-    var right = str.length - 1;
+    const strToArr = str.split('');
+    let left = 0;
+    let right = str.length - 1;
     while (left < right) {
         if (strToArr[left] === ' ') {
             left++;
@@ -12,7 +12,7 @@ function reverseString(str) {
             right--;
             continue;
         }
-        var temp = strToArr[left];
+        let temp = strToArr[left];
         strToArr[left] = strToArr[right];
         strToArr[right] = temp;
         left++;

@@ -1,4 +1,4 @@
-const str: string = 'Taco Cat';
+const str: string = 'Taco  Ct';
 
 function reverseString(str: string): string {
     const strToArr: any[] = str.split('');
